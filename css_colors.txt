@@ -1,0 +1,22 @@
+body{
+   background-color: blue;
+}
+#p1{
+   color: rgb(121,222,225);
+}
+#p2{
+   color: #59ff5f;
+}
+#p3{
+   color: hsl(283,12%,38%);
+}
+
+
+
+
+To represent colors, we can use
+1) names
+2) rgb -> ranges from 0 to 255
+3) hexadecimal -> combination of numbers and letters, from #0000 to #ffff
+4) hsl -> Hue Saturation Lightness
+
