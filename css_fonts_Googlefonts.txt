@@ -1,0 +1,46 @@
+h1{
+     font-family: verdana, arial; 
+}
+
+p{
+     font-family: "lucida console", "courier new";
+     font-size: 15px;
+     /* font-size: 1.1em; */
+}
+
+#p1{
+     font-weight: bold;
+     font-style: italic;
+}
+
+. Not all fonts are available on a web browser, so we need a list of fonts. (fallbacks)
+. By default font-size is 16px for p.
+. 1.1em -> 110% of size
+  0.5em -> 50% of size
+
+Google fonts
+------------
+
+API link
+--------
+1) open Google Fonts
+2) select one
+3) select + symbol
+4) go to right corner, use selected families copy the link
+5) <link href="" rel="stylesheet">
+
+Direct files into the web page
+------------------------------
+1) View selected families, download all
+2) unzip folders
+3) drag and drop .ttf files
+
+@font-face{
+     src:url(fonts/Robato-Light.ttf);
+     font-family: Robato-Light;
+}
+h1{
+     font-family: Robato-Light; 
+}
+
+
