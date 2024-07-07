@@ -1,0 +1,30 @@
+Borders
+-------
+1) border-style: solid
+   border-style: dashed
+   border-style: dotted
+   border-style: double
+   border-style: groove
+   border-style: ridge
+   border-style: inset
+   border-style: outset
+   border-style: none
+
+2) border-width: 2px;
+
+3) border-color: purple;
+
+4) border-radius: 10px; (rounded corners)
+
+5) border-bottom: 2px solid grey;
+   border-top: 2px solid yellow;
+   border-left: 2px solid orange;
+   border-right:2px solid blue;
+
+Short hand syntax
+-----------------
+border: width style color;
+
+border: 2px solid red;
+
+
