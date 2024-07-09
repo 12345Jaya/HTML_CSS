@@ -1,0 +1,23 @@
+Shadows
+-------
+1) text-shadow
+2) box-shadow
+
+Text shadows
+------------
+text-shadow: hor_offset ver_offset blur color;
+             (right)    (down)
+
+1) text-shadow: 3px 3px 2px red;
+
+2) If we give negative offset, shadow goes to left and up
+   text-shadow: -3px -3px 3px blue;
+
+3) We can add more no of shadows in shadow property separated by commas.
+   text-shadow: 3px 3px 3px red, -3px -3px 3px blue;
+
+Box shadows (for divs)
+-----------
+It is same as text-shadow
+
+box-shadow: 3px 3px 3px blue;
