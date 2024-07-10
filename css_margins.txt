@@ -1,0 +1,23 @@
+margins (space around an element)
+-------
+
+Box model
+---------
+margin
+border
+padding
+element
+
+1) body{
+      margin:0;
+   }
+
+2) margin-top: 15px;
+   margin-bottom: 10px;
+   margin-left: 5px;
+   margin-right: 6px;
+
+3) margin-left: auto;  //sticks to the right hand side (takes as max as possible)
+   margin-right: auto; //sticks to left
+
+4) margin: auto;  //centre (equal from left and right)
