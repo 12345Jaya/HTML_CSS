@@ -1,0 +1,34 @@
+Float
+-----
+It allows other elements to float around it.
+
+. Consider a div having three paragraph elements below it. Now we can see that text is below the div, we have div in a small size and we want text to come aside the div (wrap around)
+
+. It can be used well for block level elements like divs, images.
+
+. float: left;
+  float: right;
+
+. Sometimes these elements can be overflown out of the boxes when screen is small, then we can give,
+  display: flow-root;
+
+Overflow
+--------
+Property that sets the desired behaviour when content does not fit in the parent element box (overflows)
+
+. If text goes out of div, it is nothing but overflow.
+
+. overflow: visible;  //We can see the overflow text
+  overflow: hidden;   //we can't see the text that is out of the div
+
+. To view the overflow content upto some value we use,
+  overflow: clip;
+  overflow-clip-margin: 13px;
+
+. To view the content within the box, we can use scrolling
+  overflow: scroll;
+
+. To automatically decide the element to have scroll bar or not we need to give 
+  overflow: auto;
+
+
