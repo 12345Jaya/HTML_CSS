@@ -10,7 +10,7 @@ It allows other elements to float around it.
   float: right;
 
 . Sometimes these elements can be overflown out of the boxes when screen is small, then we can give,
-  display: flow-root;
+  display: flow-root;  // It stays within the container.
 
 Overflow
 --------
