@@ -1,0 +1,16 @@
+Height and Width
+----------------
+1) height: 200px;
+   height: auto;
+   height: 100vh; (100% of view port)
+   min-height: 50%;
+   max-height: 75%;
+
+1) width: 200px;
+   width: auto;
+   width: 50%; (of view port)
+
+  . box-sizing: border-box; (padding/margin is within box that means dimensions does not change)
+
+2) max-width: 25%;
+   min-width: 75%; (atleast)  
