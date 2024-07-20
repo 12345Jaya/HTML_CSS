@@ -1,0 +1,26 @@
+Position
+--------
+1) position: static;   // default
+2) position: relative; // relative to where it normally is
+3) position: absolute; // relative to nearest ancestor
+4) position: fixed;    // fixed to the view port
+5) position: sticky;   // based on scroll position
+
+top:100px;(comes down) left:100px;(comes right)
+top:-100px; (goes up)  left:-100px; (goes left)
+
+1) static -> initially all the ele are static, they are not effected by top, bottom, left and right.
+
+2) relative -> it is positioned wrt to current window.
+            -> ele is positioned by top, bottom, left and right.
+            -> although ele is moved, original gap is maintained. (gap is intact)
+
+3) absolute -> when there is a need of overlapping.
+            -> top, left, bottom, right are applied according to closest relative ancestor. (relative to Closest positioned ancestor)
+            -> position -> absolute => the ele search for the parent which is relative and makes it as axis otherwise makes coordinates as screen.
+            -> gap is not maintained.
+
+4) fixed   -> it remains fixed wrt window. (it is positioned intact in entire web page)
+
+5) sticky  -> it remains sticky when we give coordinates top, left, bottom, right.
+           -> it remains sticky within the container it is present.
